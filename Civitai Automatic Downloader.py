@@ -9,8 +9,8 @@ from bs4 import BeautifulSoup
 
 api_key = "insert api key here"
 api_url = "https://civitai.com/api/v1/models"
-log_parsed_downloads_URL_path = r"Path\Civitai\#log_parsed.txt)" # Logs the model name already parsed
-log_parsed_downloads_URL_images_path = r"Path\Civitai\#log_parsed_images.txt" # Logs the model name already parsed
+log_parsed_downloads_URL_path = Path(r"Path\Civitai\#log_parsed.txt") # Logs the model name already parsed
+log_parsed_downloads_URL_images_path = Path(r"Path\Civitai\#log_parsed_images.txt") # Logs the model name already parsed
 download_directory = r"Path\Civitai" # Define the download directory
 max_parallel_tasks = 1 # How many items to parse in parallel
 
