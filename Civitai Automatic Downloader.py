@@ -1,12 +1,11 @@
 import requests
-from bs4 import BeautifulSoup
 import os
-from pathlib import Path
 import time
-from datetime import datetime, timedelta
-from tqdm import tqdm
 import re
 import concurrent.futures
+from pathlib import Path
+from tqdm import tqdm
+from bs4 import BeautifulSoup
 
 api_key = "insert api key here"
 api_url = "https://civitai.com/api/v1/models"
